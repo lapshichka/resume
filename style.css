@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(200, 226, 246);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(242, 243, 245);
+}
+
+.container{
+    display: flex;
+}
+
+.right_content{
+    flex: 2 1 400px;
+    margin: 0 auto;
+}
+
+.circle-image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    padding: 20px 0;
+}
+
+.circle-image img{
+    width:100%;
+    object-fit: cover;
+}
+
+.left_content{
+    padding: 0 40px;
+}
+
+.name{
+    text-align: left;
+    font-size: 22px;
+    color: rgb(65, 129, 177);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education h1{
+    text-align: left;
+    font-size: 22px;
+    color: rgb(65, 129, 177);
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.education p{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.opportunities h1{
+    text-align: left;
+    font-size: 22px;
+    color: rgb(65, 129, 177);
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+
+.wrap ul{
+    text-align: left;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.right_content img{
+    width: 670px;
+    height: 350px;
+    margin: 10px 0;
+}
+
+.right_content h1{
+    text-align: left;
+    font-size: 22px;
+    color: rgb(65, 129, 177);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contacts h1{
+    text-align: left;
+    font-size: 22px;
+    color: rgb(65, 129, 177);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.contacts a{
+    color: rgb(20, 60, 90);
+    text-decoration: none;
+    display: block;
+    margin: 3px;
+    font-size: 14px;
+}
+
